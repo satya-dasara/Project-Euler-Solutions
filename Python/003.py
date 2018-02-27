@@ -8,7 +8,6 @@ def prime_factor(n):
     n1=n
     for f in range(2,int(sqrt(n))+1): 
         if int(n1%f):
-            f=f+int(n%f)
             continue
         else:
             k.append(f)
